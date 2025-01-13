@@ -1,1 +1,24 @@
 npx create-expo-app@latest ./
+download expo app
+npx expo start
+
+routes
+------
+folder structured
+under the app folder create a folder called root and inside that create a folder called tabs.
+route is in the index.tsx file by using Link
+import { Link } from 'react-router-native';
+
+tailwind setup using nativewind - select expo installation
+https://www.nativewind.dev/getting-started/expo-router
+
+update the tailwind.config.js file
+
+create a global.css file in the app folder. paste the tailwindcss code in the global.css file
+follow the steps in the nativewind documentation to add the global.css file to the app
+
+trouble shooting: edit the metro.config.js file to make sure the global.css file path is correct
+edit teh tailwind.config.js file to add the component folder path beside the app folder path
+restart the expo app
+
+Font and assets setup
