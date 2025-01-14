@@ -22,3 +22,4 @@ edit teh tailwind.config.js file to add the component folder path beside the app
 restart the expo app
 
 Font and assets setup
+
